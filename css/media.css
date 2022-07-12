@@ -5,7 +5,15 @@
 
 /* Extra large */
 @media screen and (max-width: 1200px){
+  .hero__image {
+    max-width: 450px;
+  }
 
+  .header {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+  }
 }
 
 /* Large */
@@ -24,6 +32,24 @@
 
  .nav-wrapper-mobile {
   display: block;
+}
+
+.hero {
+  flex-direction: column-reverse;
+}
+
+.hero__title {
+  text-align: center;
+}
+
+.mobile-stores {
+  justify-content: center;
+}
+
+.header {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 0px;
 }
 }
 
