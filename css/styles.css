@@ -11,7 +11,7 @@ ul {
   margin: 0;
 }
 
-p {
+p, h1, h2, h3 {
   margin: 0;
 }
 
@@ -142,7 +142,47 @@ html, body {
   justify-content: flex-end;
 }
 
+.feedbacks {
+  padding: 100px 0px;
+  background-color: white;
+}
 
+.feedbacks__title {
+  max-width: 440px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 57px;
+  text-align: center;
+}
 
+.swiper {
+  max-width: 620px;
+}
 
+.swiper-button-next::after {
+  content: '';
+  background-image: url('../images/next.svg');
+  width: 24px;
+  height: 24px;
+}
 
+.swiper-button-prev::after {
+  content: '';
+  background-image: url('../images/back.svg');
+  width: 24px;
+  height: 24px;
+}
+
+.feedback {
+  margin: 0 80px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 39px;
+  text-align: center;
+}
