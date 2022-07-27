@@ -35,6 +35,7 @@ html, body {
 .wrapper {
   width: 100%;
   height: 100%;
+  padding-bottom: 350px;
   position: relative;
   overflow-x: hidden;
   background-color: #FFBAA1;
@@ -121,6 +122,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 80px;
 }
 
 .hero__store {
@@ -140,6 +142,69 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+.guide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+
+  padding-top: 100px;
+}
+
+.guide-info {
+  max-width: 440px;
+  margin-left: 150px;
+}
+
+.guide-info__title {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
+
+  margin-bottom: 20px;
+}
+
+.guide-info__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 39px;
+
+  margin-bottom: 35px;
+}
+
+.guide-info__link {
+  display: block;
+  text-align: center;
+  position: relative;
+
+  border-radius: 4px;
+  background-color: #110ACD;
+  padding: 17px 0px;
+
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.guide-info__link::before {
+  content: '\25B2';
+  display: block;
+  transform: translateY(-50%) rotate(90deg);
+  font-size: 50px;
+  position: absolute;
+  left: 30px;
+  top: 50%;
 }
 
 .feedbacks {
@@ -185,4 +250,13 @@ html, body {
   font-size: 22px;
   line-height: 39px;
   text-align: center;
+}
+
+.people {
+  background-image: url('../images/Peeps-desktop.png');
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  min-height: 325px;
 }
